@@ -31,11 +31,12 @@ public class Product {
         while (true) {
             try {
                 Thread.sleep(1000);
-              var number=queue.take();
+            //  var number=queue.take();
          //       var number = intList.get(0);
             //    intList.remove(0);
 
-                System.out.println(number + ": readed from the queue. Size:"+queue.size());
+               // System.out.println(number + ": readed from the queue. Size:"+queue.size());
+                System.out.println("Size:"+queue.size());
             } catch (InterruptedException e) {
                 System.out.println("Error on read...");
             }
